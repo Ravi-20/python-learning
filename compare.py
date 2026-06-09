@@ -1,10 +1,8 @@
 # This program compares two numbers and prints the result.
-a = int(input("What's a? : "))
-b = int(input("what's b?: "))
+x = int(input("What's x? : "))
+y = int(input("what's y?: "))
 
-if a > b:
-    print("a is greater than b")
-elif a < b:
-    print("a is less than b")
+if x < y or x > y:
+    print("x is not equal to y")
 else:
-    print("a is equal to b")
+    print("x is equal to y")
