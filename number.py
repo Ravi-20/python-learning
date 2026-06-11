@@ -3,7 +3,7 @@ while True:
     try:
         x = int(input("Enter a number: "))    
     except ValueError:
-        print("That's not a valid number.")
+        pass
     else:
         break
 print(f"The number is {x}")
