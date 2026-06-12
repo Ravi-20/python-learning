@@ -5,7 +5,17 @@
 # print("The coin landed on:", coin)
 
 #This is the from module import statement
-from random import choice
+# from random import choice
 
-coin = choice(["Heads", "Tails"])
-print("The coin landed on:", coin)
+# coin = choice(["Heads", "Tails"])
+# print("The coin landed on:", coin)
+
+import random
+
+number = random.randint(1, 10)
+print(number)
+
+cards = ["jack", "queen", "king"]
+random.shuffle(cards)
+for card in cards:
+    print(card)
