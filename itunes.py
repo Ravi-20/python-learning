@@ -1,3 +1,4 @@
+# This program takes a search term as a command-line argument and then queries the iTunes Search API for songs matching that term. It retrieves the results in JSON format, parses it, and prints the track names of the songs found.
 import json
 import requests
 import sys
